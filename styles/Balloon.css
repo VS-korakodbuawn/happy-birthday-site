@@ -1,0 +1,31 @@
+.balloon {
+  position: absolute;
+  bottom: -100px;
+  width: 40px;
+  height: 60px;
+  background-color: pink;
+  border-radius: 50% 50% 50% 50%;
+  animation: floatUp 10s linear infinite;
+  opacity: 0.8;
+  z-index: 1; /* แก้จาก 0 เป็น 1 */
+}
+
+.balloon::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 2px;
+  height: 20px;
+  background: #888;
+  transform: translateX(-50%);
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-120vh) translateX(20px);
+  }
+}
