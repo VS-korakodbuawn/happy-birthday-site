@@ -9,9 +9,9 @@ export default function MemoriesPage() {
   const router = useRouter()
 
   const images = [
-    "/images/photoA.jpg",
-    "/images/photoB.jpg",
-    "/images/photoC.jpg",
+    "/images/photoA.JPG",
+    "/images/photoB.JPG",
+    "/images/photoC.JPG",
     "/images/photo4.jpg",
     "/images/photo5.jpg",
     "/images/photo6.jpg",
