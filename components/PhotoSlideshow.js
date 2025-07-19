@@ -15,6 +15,9 @@ export default function MemoriesPage() {
     "/images/photo6.jpg",
     "/images/photo7.jpg",
     "/images/photo8.jpg",
+    "/images/photo9.jpg",
+    "/images/photo10.jpg",
+    "/images/photo11.jpg",
   ]
 
   const settings = {
