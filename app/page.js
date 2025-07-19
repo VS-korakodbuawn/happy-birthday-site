@@ -29,8 +29,6 @@ const FloatingHearts = () => {
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-pink-100 to-purple-200 px-4 py-8 sm:py-10 md:py-20 relative overflow-x-hidden">
-      {/* เพลงเบา ๆ */}
-      <MusicPlayer />
 
       {/* หัวใจลอย */}
       <FloatingHearts />
