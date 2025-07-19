@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 import Image from 'next/image'
 import TypewriterText from '../components/TypewriterText'
 import Countdown from '../components/Countdown'
-import MusicPlayer from '../components/MusicPlayer'
 import SurpriseModal from '../components/SurpriseModal'
 
 const FloatingHearts = () => {
