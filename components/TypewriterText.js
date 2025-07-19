@@ -6,9 +6,9 @@ export default function TypewriterText() {
       <Typewriter
         options={{
           strings: [
-            "Happy Birthday",
-            "Wish you lots of happiness",
-            "You're 21"
+            "Happy Birthday🎂💗",
+            "Wish you lots of happiness💕",
+            "You're 21💖"
           ],
           autoStart: true,
           loop: true,
