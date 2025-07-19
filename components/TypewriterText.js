@@ -6,9 +6,9 @@ export default function TypewriterText() {
       <Typewriter
         options={{
           strings: [
-            "สุขสันต์วันเกิดนะ 💖",
-            "ขอให้มีความสุขมาก ๆ นะ 🎉",
-            "อายุ 21 แล้ว 💑"
+            "Happy Birthday",
+            "Wish you lots of happiness",
+            "You're 21"
           ],
           autoStart: true,
           loop: true,
